@@ -50,7 +50,7 @@ public class StepDefATM {
     }
 
     @When("I deposit {float} at ATM")
-    public void i_deposit_from_atm(double amount) {
+    public void i_deposit_at_atm(double amount) {
         atm.deposit(amount);
     }
 
